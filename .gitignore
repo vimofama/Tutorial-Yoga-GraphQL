@@ -1,0 +1,9 @@
+node_modules
+# Keep environment variables out of version control
+.env
+# Ignore generated files
+*.generated.*
+# Ignore migration files
+prisma/migrations
+# Sqlite database file
+prisma/dev.db
